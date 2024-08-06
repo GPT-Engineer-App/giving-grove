@@ -4,7 +4,7 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-yellow-300 flex flex-col">
       <header className="p-4 flex justify-between items-center">
-        <h1 className="text-2xl font-bold">nice</h1>
+        <img src="/nice-logo.png" alt="Nice Logo" className="h-8" />
         <Button variant="outline" className="bg-black text-white px-4 py-2 rounded-full">
           Sign In
         </Button>
@@ -17,12 +17,12 @@ const Index = () => {
         </div>
         
         <div className="grid grid-cols-3 gap-2 mb-4">
-          <img src="/placeholder.svg" alt="Tiger" className="w-full h-24 object-cover rounded-lg" />
-          <img src="/placeholder.svg" alt="Whale" className="w-full h-24 object-cover rounded-lg" />
-          <img src="/placeholder.svg" alt="Elephant" className="w-full h-24 object-cover rounded-lg" />
-          <img src="/placeholder.svg" alt="Coral reef" className="w-full h-24 object-cover rounded-lg" />
-          <img src="/placeholder.svg" alt="Rainforest" className="w-full h-24 object-cover rounded-lg" />
-          <img src="/placeholder.svg" alt="Polar bear" className="w-full h-24 object-cover rounded-lg" />
+          <img src="/tiger.jpg" alt="Tiger" className="w-full h-24 object-cover rounded-lg" />
+          <img src="/tiger.jpg" alt="Tiger" className="w-full h-24 object-cover rounded-lg" />
+          <img src="/tiger.jpg" alt="Tiger" className="w-full h-24 object-cover rounded-lg" />
+          <img src="/tiger.jpg" alt="Tiger" className="w-full h-24 object-cover rounded-lg" />
+          <img src="/tiger.jpg" alt="Tiger" className="w-full h-24 object-cover rounded-lg" />
+          <img src="/tiger.jpg" alt="Tiger" className="w-full h-24 object-cover rounded-lg" />
         </div>
         
         <Button className="bg-black text-white px-8 py-3 rounded-full text-lg mb-4">
